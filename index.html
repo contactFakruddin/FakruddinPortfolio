@@ -240,7 +240,7 @@
     let scrollPosition = window.scrollY || document.documentElement.scrollTop;
 
     // Calculate the translateX value to move the text horizontally based on scroll position
-    const scrollSpeed = 0.40;  // Adjust the scroll speed factor as needed
+    const scrollSpeed = 0.50;  // Adjust the scroll speed factor as needed
     const translateX = scrollPosition * scrollSpeed;
 
     // Apply the calculated transform to move the text
@@ -290,10 +290,10 @@
             data-scroll-speed="-8" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
               <span class="inline-ovh">
                 <div id="scrolling-title" class="title__main">
-                  <span class="slide-up" data-content="Explore my journey and expertise – Grab my CV to dive deeper!"
+                  <span class="slide-up" data-content="Explore my journey, skills, and achievements – Grab my CV to dive deeper!"
                   aria-hidden="true">
                   </span>
-                  Explore my journey and expertise – Grab my CV to dive deeper!   
+                  Explore my journey, skills, and achievements – Grab my CV to dive deeper!   
                 </div>
               </span>
             </h1>
@@ -309,7 +309,7 @@
               const scrollY = window.scrollY;
         
               // Calculate the horizontal translation value based on scroll position
-              const translateX = scrollY * 0.40; // Adjust multiplier to control speed
+              const translateX = scrollY * 0.50; // Adjust multiplier to control speed
         
               // Apply the translation to the targeted element
               scrollingTitle.style.transform = `translateX(${translateX}px)`;

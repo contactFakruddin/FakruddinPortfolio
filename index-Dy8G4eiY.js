@@ -1662,7 +1662,7 @@ var xe = {
         return (Xn = Qi(t, Te)) && ue
     },
     oo = function(t, r) {
-        return console.warn("Invalid property", t, "set to", r, "Missing plugin? gsap.registerPlugin()")
+        //return console.warn("Invalid property", t, "set to", r, "Missing plugin? gsap.registerPlugin()")
     },
     an = function(t, r) {
         return !r && console.warn(t)
@@ -1696,9 +1696,11 @@ var xe = {
     co = function(t) {
         var r = t[0],
             e, i;
+        if (r !==undefined && r !== null && Object.keys(r).length) {
         if (ti(r) || dt(r) || (t = [t]), !(e = (r._gsap || {}).harness)) {
             for (i = In.length; i-- && !In[i].targetTest(r););
             e = In[i]
+        }
         }
         for (i = t.length; i--;) t[i] && (t[i]._gsap || (t[i]._gsap = new il(t[i], e))) || t.splice(i, 1);
         return t
@@ -3812,7 +3814,7 @@ var bl = {
     name: "css",
     register: Vs,
     targetTest: function(t) {
-        return t.style && t.nodeType
+        //return t.style && t.nodeType
     },
     init: function(t, r, e, i, n) {
         var s = this._props,

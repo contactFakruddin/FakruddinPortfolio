@@ -45,7 +45,7 @@ a {
 }
 @font-face {
     font-family:Open Sauce;
-    src:url(/assets/opensauce-regular-BgP9H1xs.woff2) format("woff2"),url(/assets/opensauce-regular-BgP9H1xs.woff2) format("woff");
+    src:url('opensauce-regular-BgP9H1xs.woff2') format("woff2"),url('opensauce-regular-BgP9H1xs.woff2') format("woff");
     font-weight:400;
     font-style:normal;
     font-display:swap

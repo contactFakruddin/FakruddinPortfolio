@@ -243,7 +243,7 @@
     let scrollPosition = window.scrollY || document.documentElement.scrollTop;
 
     // Calculate the translateX value to move the text horizontally based on scroll position
-    const scrollSpeed = 0.50;  // Adjust the scroll speed factor as needed
+    const scrollSpeed = 0.80;  // Adjust the scroll speed factor as needed
     const translateX = scrollPosition * scrollSpeed;
 
     // Apply the calculated transform to move the text
@@ -312,7 +312,7 @@
               const scrollY = window.scrollY;
         
               // Calculate the horizontal translation value based on scroll position
-              const translateX = scrollY * 0.50; // Adjust multiplier to control speed
+              const translateX = scrollY * 0.80; // Adjust multiplier to control speed
         
               // Apply the translation to the targeted element
               scrollingTitle.style.transform = `translateX(${translateX}px)`;

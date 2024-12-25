@@ -38,7 +38,7 @@ a {
 }
 @font-face {
     font-family:Open Sauce;
-    src:url('C:/Users/sys/OneDrive/Desktop/Portfolio Website/opensauce-medium-DHCY1jhb.woff2') format("woff2"),url('C:/Users/sys/OneDrive/Desktop/Portfolio Website/opensauce-medium-DHCY1jhb.woff2') format("woff");
+    src:url('opensauce-medium-DHCY1jhb.woff2') format("woff2"),url('opensauce-medium-DHCY1jhb.woff2') format("woff");
     font-weight:500;
     font-style:normal;
     font-display:swap

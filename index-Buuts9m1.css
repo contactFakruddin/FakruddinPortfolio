@@ -964,7 +964,7 @@ to {
 
 /* Set a large font size for the title, no shrinking */
 .home__projects__project__title {
-    font-size: 5rem;             /* Set a large default font size */
+                /* Set a large default font size */
     font-weight: bold;
     text-transform: uppercase;   /* Capitalize the text */
     word-wrap: break-word;       /* Ensure long words break and wrap */
